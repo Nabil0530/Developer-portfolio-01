@@ -8,7 +8,7 @@ h1 {
     color: dimgray;
 }
 
-p {
+.nabil {
     font-size: 20px;
     color: gray;
     padding-left: 90px;
@@ -69,13 +69,19 @@ p {
 }
 
 .right {
+    font-size: 20px;
+    color: gray;
     text-align: justify;
-    padding-right: 90px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 .left {
-    padding-left: 90px;
+    padding-left: 40px;
+    padding-right: 40px;
+
 }
 
 .color-site {
@@ -86,7 +92,7 @@ p {
     border-radius: 50px;
     font-weight: 700;
     padding: 23px 43px;
-    margin-left: 90px;
+    margin-left: 40px;
 
     box-shadow: 5px 5px 20px gray;
 }
@@ -95,4 +101,58 @@ p {
     background-image: url(images/shapes/7.png);
     padding-bottom: 40px;
     background-repeat: no-repeat;
+}
+
+.center {
+    text-align: center;
+}
+
+.half-height {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.under {
+    font-size: 20px;
+    color: gray;
+}
+
+.half {
+    display: flex;
+}
+
+.half-wide img {
+    width: 50%;
+
+
+
+}
+
+.center {
+    font-weight: 700;
+    color: dimgray;
+    font-size: 30px;
+}
+
+.turn {
+    font-weight: 900;
+    color: black;
+}
+
+.fixed {
+    font-size: 20px;
+    color: gray;
+    padding-bottom: 200px;
+    padding-right: 100px;
+}
+
+.kamruddin {
+    width: 30%;
+    text-align: justify;
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px gray;
 }
